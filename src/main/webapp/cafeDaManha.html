@@ -11,21 +11,43 @@
 	</head>
 	<body >  
 	
-		<form>
-	        <!-- caixas de texto -->
+		<form action="" method="post" onsubmit="return validarDados()" >
+	        
 	        <div class="form-group">
-	            <label for="nome">Nome</label>
+	            <label for="nome">Nome:</label>
 	            <input class="form-control" type="text" id="nome" placeholder="Ex: Gabriel Felix">
 	            
-	            <label for="cpf">CPF</label>
+	            <label for="cpf">CPF:</label>
 	            <input class="form-control" type="text" id="cpf" placeholder="Ex: 123.456.789.10">
 	            
-	            <label for="cafe">Comida ou Bebida</label>
+	            <label for="cafe">Comida ou Bebida:</label>
 	            <input class="form-control" type="text" id="comida" placeholder="Digite o que vai levar para o café">
 	            
 	            <button class="btn btn-primary" id="butao" type="submit" value="Submit" >Enviar</button>
 	        </div>
+	       
+	        
 	     </form>
+	     
+	     <script type="text/javascript">
+				function validarDados() {
+					var nome = document.getElementById("nome").value;	
+					var cpf = document.getElementById("cpf").value;	
+					var comida = document.getElementById("comida").value;	
+			
+					if(nome == ''){
+						alert('Informe o nome');
+						return false;
+					}else if(cpf == ''){
+						alert('Informe o cpf');
+						return false;
+					}else if(comida == ''){
+						alert('Informe a comida que vai levar');
+						return false;
+					}
+				}
+			
+			</script>
 		
 	</body>
 </html>
