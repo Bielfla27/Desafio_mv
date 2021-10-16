@@ -1,0 +1,30 @@
+body{
+	background-image: url("../imagens/cafe.jpg"); 
+	background-repeat: no-repeat;
+ 	background-size: auto;
+	font-size: 25px;
+}
+
+
+form{
+
+   width: 300px;
+   margin: 200px auto;
+   font-family: 'Lobster', cursive;  
+   
+}
+
+.form-control{
+	height: 50px;
+   	background-color: #e9edc9;
+   	font-family: fantasy;
+}
+
+form #butao{
+	width: 50%;
+	display: block;
+	background-color: #bf0603;
+	margin: 15px auto;
+	font-size: 20px;
+	border: 1px solid #8d0801;
+}
