@@ -1,12 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <web-app id="WebApp_ID" version="2.5" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
 	<display-name>desafioMv</display-name>
-	<welcome-file-list>
+	<servlet>
+		<description>
 		<welcome-file>index.html</welcome-file>
-		<welcome-file>index.htm</welcome-file>
-		<welcome-file>index.jsp</welcome-file>
+		<welcome-file>index.htm</welcome-file>ption>
+		</description>
+		<display-name>S
 		<welcome-file>default.html</welcome-file>
 		<welcome-file>default.htm</welcome-file>
-		<welcome-file>default.jsp</welcome-file>
+		<welcome-file>default.jsp</welcome-file>ervletCafe</display-name>
+		<servlet-name>ServletCafe</servlet-name>
+		<servlet-class>servlet.ServletCafe</servlet-class>
+	</servlet>
+	<servlet>
+		<description>
+		</description>
+		<display-name>serveletCafe</display-name>
+		<servlet-name>serveletCafe</servlet-name>
+		<servlet-class>servlet.serveletCafe</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>serveletCafe</servlet-name>
+		<url-pattern>/serveletCafe</url-pattern>
+	</servlet-mapping>
+	<welcome-file-list>
+		<welcome-file>index.jsp</welcome-file>
 	</welcome-file-list>
 </web-app>
