@@ -13,20 +13,22 @@
 	</head>
 	<body >  
 	
-		<form action="" method="post" onsubmit="return validarDados()" >
+		<form action="serveletCafe" method="post" onsubmit="return validarDados()" >
 		
 	        
 	        <div class="form-group">
 	            <label for="nome">Nome:</label>
-	            <input class="form-control" type="text" id="nome" placeholder="Ex: Gabriel Felix">
+	            <input class="form-control" type="text" id="nome" name="nome" placeholder="Ex: Gabriel Felix">
 	            
 	            <label for="cpf">CPF:</label>
-	            <input class="form-control" type="text" id="cpf" placeholder="Ex: 123.456.789.10">
+	            <input class="form-control" type="text" id="cpf" name="cpf" placeholder="Ex: 123.456.789.10">
 	            
 	            <label for="cafe">Comida ou Bebida:</label>
-	            <input class="form-control" type="text" id="comida" placeholder="Digite o que vai levar para o café">
+	            <input class="form-control" type="text" id="comida" name="comida" placeholder="Digite o que vai levar para o café">
 	            
 	            <button class="btn btn-primary" id="butao" type="submit" value="Submit" >Enviar</button>
+	            
+	  			
 	        </div>
 	       
 	        
