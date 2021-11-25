@@ -2,16 +2,16 @@ body{
 	background-image: url("../imagens/cafe.jpg"); 
 	background-repeat: no-repeat;
  	background-size: auto;
+	
 	font-size: 25px;
 }
 
-
-form{
-
-   width: 300px;
-   margin: 200px auto;
-   font-family: 'Lobster', cursive;  
-   
+form {
+	position: absolute;
+	top: 20%; 
+	left: 33%; 
+	right: 33%;
+	font-family: 'Lobster', cursive; 
 }
 
 .form-control{
@@ -29,3 +29,5 @@ form #butao{
 	border: 1px solid #8d0801;
 }
 
+h2{	text-align: center; 
+	margin-bottom: 20px;	}

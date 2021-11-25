@@ -10,6 +10,7 @@ public class ModelCafe implements Serializable {
 	private String nome;
 	private String cpf;
 	private String comida;
+	
 	public String getNome() {
 		return nome;
 	}

@@ -17,6 +17,8 @@
 		
 	        
 	        <div class="form-group">
+	        	<h2> Café da Manha MV</h2>
+	        
 	            <label for="nome">Nome:</label>
 	            <input class="form-control" type="text" id="nome" name="nome" placeholder="Ex: Gabriel Felix">
 	            
@@ -28,6 +30,7 @@
 	            
 	            <button class="btn btn-primary" id="butao" type="submit" value="Submit" >Enviar</button>
 	            
+	            <h4 style="font-family: inherit;  text-align: center;">${msg}</h4>
 	  			
 	        </div>
 	       
