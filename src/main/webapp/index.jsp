@@ -20,7 +20,7 @@
 	        	<h2> Café da Manha MV</h2>
 	        
 	            <label for="nome">Nome:</label>
-	            <input class="form-control" type="text" id="nome" name="nome" placeholder="Ex: Gabriel Felix">
+	            <input class="form-control" type="text" id="nome" name="nome" placeholder="Ex: Gabriel Felix" >
 	            
 	            <label for="cpf">CPF:</label>
 	            <input class="form-control" type="text" id="cpf" name="cpf" placeholder="Ex: 123.456.789.10">

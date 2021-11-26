@@ -6,12 +6,13 @@ import java.sql.SQLException;
 import dao.DAOLoginRepository;
 import jakarta.servlet.RequestDispatcher;
 import jakarta.servlet.ServletException;
+import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import model.ModelCafe;
 
-
+@WebServlet(urlPatterns = {"/ServletLogin"})
 public class serveletCafe extends HttpServlet {
 	DAOLoginRepository daoLogin = new DAOLoginRepository(); 
 	private static final long serialVersionUID = 1L;
